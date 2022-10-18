@@ -12,14 +12,374 @@
     <!-- Bootstarp CDN -->
 </head>
 <body>
-<div class="one">
-    <div class="tow">
-        <div class="tehree">
-            <div class="dffsfg">
-                <div class="dfsf"><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsa eaque repellendus assumenda laborum explicabo asperiores tempora alias doloremque ratione.</h1></div>
-            </div></div>
+    <!-- NAV SECTION -->
+    <nav class="navbar navbar-expand-lg nav_bar fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text_color_white ms-4" href="#" 
+          style="
+          font-family: 'Inter', sans-serif;
+          font-weight: bold;
+          ">
+          Yash Solo
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">ddd</span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" 
+          style="
+                font-family: 'Inter', sans-serif;
+                font-weight: 500">
+            <div class="navbar-nav align-items-center">
+              <a class="nav-link active text_color_white" aria-current="page" href="#">Portfolio</a>
+              <a class="nav-link text_color_white" href="#">About</a>
+              <a class="nav-link text_color_white" href="#">Contact</a>
+              <a class="nav-link me-4 "><img class="" src="./res/Desktop-nav-msg.svg" alt="Nav text icon"></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- NAV SECTION -->
+
+      <!-- HERO SECTION -->
+      <section class="hero_section d-flex align-items-center ">
+        <div class="hero_items row">
+          <div class="hero_social_media d-inline-flex flex-column col-1 w-auto">
+              <a href="/#" class="social_icon header_social_ico_git"><img src="./res/git.svg" alt="header social icon"></a>
+              <a href="/#" class="social_icon header_social_ico_linkedin"><img src="./res/linkedin.svg" alt="header social icon"></a>
+              <a href="/#" class="social_icon header_social_ico_v"><img src="./res/vic.svg" alt="header social icon"></a>
+              <a href="/#" class="social_icon header_social_ico_twitter"><img src="./res/twitter.svg" alt="header social icon"></a>
+              <a href="/#" class="social_icon header_social_ico_m"><img src="./res/m.svg" alt="header social icon"></a>
+          </div>
+          <div class="hero_texts d-flex flex-column align-self-start col ">
+              <div class="hero_big_header">
+                  <h1>Hey There. <br> I’m Yash</h1>
+              </div>
+              <div class="hero_sm_header text_color_white mt-2">
+                  <h3>I’am a Software Developer</h3>
+              </div>
+              <div class="hero_para text_color_white mt-2">
+                  <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- HERO SECTION -->
+
+      <!-- PORTFOLIO SECTION -->
+      <section class="portfolio_section mt-5 mb-5 position-relativ">
+        <div class="portfolio-items">
+          <!-- PORTFOLIO HEADER TITLE -->
+          <div class="portfolio-header d-flex justify-content-center align-items-center">
+            <h2 class="text-dark">My Recent Works</h2>
+            <hr class="portfolio_hr border border-dark border-1 opacity-100 ms-2">
+          </div>
+          <!-- PORTFOLIO HEADER TITLE -->
+
+          <!-- PORTFOLIO MAIN PROJECT  -->
+
+          <div id="portfolio_main_project"  class="portfolio_main_project d-flex  align-items-center mt-5  row gx-5 ">
+            <div class="portfolio_main_project_img col-4 ">
+              <img src="./res/img_Placeholder.png" alt="portfolio main project image">
+            </div>
+            <div class="portfolio_main_project_txt col">
+              <div class="portfolio_main_project_header">
+                <h4>Multi-Post Stories</h4>
+              </div>
+              <div  class="portfolio_main_project_para">
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+              </div>
+              <div class="main_project_skill d-flex flex-row">
+                <div class="portfolio_main_project_skill_css main_project">
+                  <a href="/#">css</a>
+                </div>
+                <div class="portfolio_main_project_skill_html main_project">
+                  <a href="/#">html</a>
+                </div>
+                <div class="portfolio_main_project_skill_bootstarp main_project">
+                  <a href="/#">bootstrap</a>
+                </div>
+                <div class="portfolio_main_project_skill_ruby main_project">
+                  <a href="/#">ruby</a>
+                </div>
+              </div>
+              <button class="mt-4 px-3 py-2" 
+              style="
+              border: none;
+              background-color: #ff6b00;
+              color: white;">See projects</button>
+            </div>
+          </div>
+
+          <!-- PORTFOLIO MAIN PROJECT  -->
+
+
+          <!-- PORTFOLIO CARD PROJECT  -->
+
+          <div class="portfolio_cards mt-5 d-flex align-content-center justify-content-center">
+            <div class="portfolio_row1 row mt-5">
+              <div class="portfolio_column1 col">
+                <div class="card" style="width: 18rem; height: 18rem; background-image: url(./res/desktop-printing-bg.png); background-repeat: no-repeat;">
+                  <div class="card-body">
+                    <h5 class="card-title" style="opacity: 0;">Data Dashboard <br> Healthcare</h5>
+                    <p class="card-text" style="opacity: 0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="/#" class="btn btn-primary" style="width: 100%; background-color: #ff6b00; border:none; margin: 5.7rem 0 0 0; ">See projects</a>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio_column2 col">
+                <div class="card" style="width: 18rem; height: 18rem; background-image: url(./res/desktop-data-dashbord-bg.png); background-repeat: no-repeat;">
+                  <div class="card-body">
+                    <h5 class="card-title mt-5 pt-4 " style="color:white; font-family: 'Crete Round', sans-serif;">Data Dashboard <br> Healthcare</h5>
+                    <p class="card-text" style="color:white; font-family: 'Inter', sans-serif;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="main_project_skill d-flex flex-row " style="margin: 0 0 2rem 1rem;">
+                    <div class="portfolio_main_project_skill_css main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">css</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_html main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">html</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_bootstarp main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">bootstrap</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio_column3 col">
+                <div class="card" style="width: 18rem; height: 18rem; background-image: url(./res/desktop-data-dashbord-bg.png); background-repeat: no-repeat;">
+                  <div class="card-body">
+                    <h5 class="card-title mt-5 pt-4 " style="color:white; font-family: 'Crete Round', sans-serif;">Data Dashboard <br> Healthcare</h5>
+                    <p class="card-text" style="color:white; font-family: 'Inter', sans-serif;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="main_project_skill d-flex flex-row " style="margin: 0 0 2rem 1rem;">
+                    <div class="portfolio_main_project_skill_css main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">css</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_html main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">html</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_bootstarp main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">bootstrap</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div> 
+          </div>
+          <div class="portfolio_cards mt-5 d-flex align-content-center justify-content-center">
+            <div class="portfolio_row1 row mt-5">
+              <div class="portfolio_column1 col">
+                <div class="card" style="width: 18rem; height: 18rem; background-image: url(./res/desktop-data-dashbord-bg.png); background-repeat: no-repeat;">
+                  <div class="card-body">
+                    <h5 class="card-title mt-5 pt-4 " style="color:white; font-family: 'Crete Round', sans-serif;">Data Dashboard <br> Healthcare</h5>
+                    <p class="card-text" style="color:white; font-family: 'Inter', sans-serif;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="main_project_skill d-flex flex-row " style="margin: 0 0 2rem 1rem;">
+                    <div class="portfolio_main_project_skill_css main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">css</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_html main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">html</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_bootstarp main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">bootstrap</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio_column2 col">
+                <div class="card" style="width: 18rem; height: 18rem; background-image: url(./res/desktop-data-dashbord-bg.png); background-repeat: no-repeat;">
+                  <div class="card-body">
+                    <h5 class="card-title mt-5 pt-4 " style="color:white; font-family: 'Crete Round', sans-serif;">Data Dashboard <br> Healthcare</h5>
+                    <p class="card-text" style="color:white; font-family: 'Inter', sans-serif;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="main_project_skill d-flex flex-row " style="margin: 0 0 2rem 1rem;">
+                    <div class="portfolio_main_project_skill_css main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">css</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_html main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">html</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_bootstarp main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">bootstrap</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio_column3 col">
+                <div class="card" style="width: 18rem; height: 18rem; background-image: url(./res/desktop-data-dashbord-bg.png); background-repeat: no-repeat;">
+                  <div class="card-body">
+                    <h5 class="card-title mt-5 pt-4 " style="color:white; font-family: 'Crete Round', sans-serif;">Data Dashboard <br> Healthcare</h5>
+                    <p class="card-text" style="color:white; font-family: 'Inter', sans-serif;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="main_project_skill d-flex flex-row " style="margin: 0 0 2rem 1rem;">
+                    <div class="portfolio_main_project_skill_css main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">css</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_html main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">html</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_bootstarp main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">bootstrap</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div> 
+          </div>
+          <div class="portfolio_cards mt-5 d-flex align-content-center justify-content-center">
+            <div class="portfolio_row1 row mt-5">
+              <div class="portfolio_column1 col">
+                <div class="card" style="width: 18rem; height: 18rem; background-image: url(./res/desktop-data-dashbord-bg.png); background-repeat: no-repeat;">
+                  <div class="card-body">
+                    <h5 class="card-title mt-5 pt-4 " style="color:white; font-family: 'Crete Round', sans-serif;">Data Dashboard <br> Healthcare</h5>
+                    <p class="card-text" style="color:white; font-family: 'Inter', sans-serif;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="main_project_skill d-flex flex-row " style="margin: 0 0 2rem 1rem;">
+                    <div class="portfolio_main_project_skill_css main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">css</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_html main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">html</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_bootstarp main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">bootstrap</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio_column2 col">
+                <div class="card" style="width: 18rem; height: 18rem; background-image: url(./res/desktop-data-dashbord-bg.png); background-repeat: no-repeat;">
+                  <div class="card-body">
+                    <h5 class="card-title mt-5 pt-4 " style="color:white; font-family: 'Crete Round', sans-serif;">Data Dashboard <br> Healthcare</h5>
+                    <p class="card-text" style="color:white; font-family: 'Inter', sans-serif;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="main_project_skill d-flex flex-row " style="margin: 0 0 2rem 1rem;">
+                    <div class="portfolio_main_project_skill_css main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">css</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_html main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">html</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_bootstarp main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">bootstrap</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio_column3 col">
+                <div class="card" style="width: 18rem; height: 18rem; background-image: url(./res/desktop-data-dashbord-bg.png); background-repeat: no-repeat;">
+                  <div class="card-body">
+                    <h5 class="card-title mt-5 pt-4 " style="color:white; font-family: 'Crete Round', sans-serif;">Data Dashboard <br> Healthcare</h5>
+                    <p class="card-text" style="color:white; font-family: 'Inter', sans-serif;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="main_project_skill d-flex flex-row " style="margin: 0 0 2rem 1rem;">
+                    <div class="portfolio_main_project_skill_css main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">css</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_html main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">html</a>
+                    </div>
+                    <div class="portfolio_main_project_skill_bootstarp main_project">
+                      <a href="/#" style="color: white; border: 1px solid white;">bootstrap</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div> 
+          </div>
+
+          <!-- PORTFOLIO CARD PROJECT  -->
+
+
+
+        </div>
+      </section>
+      <!-- PORTFOLIO SECTION -->
+
+      <!-- ABOUT SECTION -->
+      <section class="about_section position-relative  ">
+        <!-- ABOUT ME SECTION -->
+        <div class="about_me_sec">
+          <div class="about_me_header">
+            <h2>About me</h2>
+          </div>
+          <div class="about_me_para">
+            <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+          </div>
+          <div class="about_me_btn"><button style="border: none; background-color: #ff6b00; color: antiquewhite; padding: 1em 2em; font-weight: 700;">Get my resume</button></div>  
+        </div>
+        <!-- ABOUT ME SECTION -->
+        <hr class="portfolio_hr border border-white border-1 opacity-100 mx-5 mt-5 " style="width:92vw ;">
+
+        <!-- LANGUAGE SECTION -->
+        <div class="language_row row align-items-center justify-content-center "  style="margin: 10rem 0 0 15rem ;">
+           <div class="language_column col-4 ">
+            <h5 style="color: aliceblue; "><img class="me-2" src="./res/language-dot.svg" alt="dot" >Language</h5>
+            <h6 style="color: aliceblue; margin: 2rem 0 1rem 0.5rem;">Javascript</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">Ruby</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">HTML</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">CSS</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">Python</h6>
+           </div>
+           <div class="framework_column col-4">
+            <h5 style="color: aliceblue;"><img class="me-2" src="./res/farmework-dot.svg" alt="dot" >Frameworks</h5>
+            <h6 style="color: aliceblue; margin: 2rem 0 1rem 0.5rem;">Bootstarp</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">Ruby on Rails</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">RSPec</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">CapyBara</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">Selenium</h6>
+           </div>
+           <div class="skill_column col-4">
+            <h5 style="color: aliceblue;"><img class="me-2" src="./res/skill-dot.svg" alt="dot" >Skills</h5>
+            <h6 style="color: aliceblue; margin: 2rem 0 1rem 0.5rem;">Codekit</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">Github</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">Codepen</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">Gitlab</h6>
+            <h6 style="color: aliceblue; margin: 1rem 0 1rem 0.5rem;">Terminal</h6>
+           </div>
+        </div>
+        <!-- LANGUAGE SECTION -->
+
+      </section>
+      <!-- ABOUT SECTION -->
+
+
+      <!-- FORM SECTION -->
+
+      <section  class="form_sec row pt-5">
+      <div id="form_txt" class="form-text col-3" >
+        <h2 class="text-dark mt-5">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+      </div>
+      <div class="form_input col-4">
+      <form action="https://formspree.io/f/maykjlep" method="post">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="text" class="form-control"  required>
+          <div id="emailHelp" class="form-text"> 
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"></label>
+          <textarea class="contact-text" name="contacttxt" maxlength="500" placeholder="Enter text here" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="background-color: #ff6b00; border: none;">Submit</button>
+      </form>
     </div>
-</div>
+    </section>
+
+      <!-- FORM SECTION -->
 
 </body>
 </html>
